@@ -1,6 +1,6 @@
 import React, { useState } from "react";
 import { BrowserRouter as Router, Route, Switch, Link } from "react-router-dom";
-import User from "./components/User3";
+import User from "./components/User";
 import Logo from "./components/Logo";
 
 import "./App.css";
@@ -41,7 +41,6 @@ function App() {
           </nav>
         </header>
         <Switch>
-          {/* <Route exact path="/" render={() => ""} /> */}
           <Route
             path="/"
             render={() => (
