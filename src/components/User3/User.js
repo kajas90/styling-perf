@@ -4,7 +4,7 @@ import styled from "styled-components";
 
 const User = ({ name, surname }) => {
   return (
-    <Wrapper isColored={!!surname}>
+    <Wrapper isColored={!surname}>
       <Label>{name}</Label>
       {!!surname && <Label>{surname}</Label>}
     </Wrapper>
